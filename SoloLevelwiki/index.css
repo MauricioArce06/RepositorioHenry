@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(0, 38, 255);
+}
+
+.Encabezado {
+    display: flex;
+    justify-content: center; ;
+    align-items: center;
+    }
+
+.Menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    }
+
+.Menu ul li {
+    margin: 0 10px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    }

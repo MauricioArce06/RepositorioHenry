@@ -1,0 +1,79 @@
+/* reset.css */
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles (bullet points and numbers) */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default styles on anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set base font size and line height */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Remove default styling on form elements */
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Remove outline on focused elements */
+*:focus {
+  outline: none;
+}
+
+/* Optionally, add additional resets based on your project needs */
