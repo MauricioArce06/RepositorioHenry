@@ -12,18 +12,59 @@ body {
 
 .Encabezado {
     display: flex;
-    justify-content: center; ;
+    justify-content: space-between; ;
     align-items: center;
-    flex-direction: row-reverse;
-    border: 5px white solid;
+    flex-direction:row-reverse;
     border-radius: 20px;
     background-color: transparent;
     }
 
+    
 .Encabezado div img {
-    border-radius: 6%;
-    display: flex;
-    margin: 100px;
+        border-radius: 6%;
+        display: flex;
+        border-radius: 30px;
+    }
+
+#logo { 
+        display: flex;
+        justify-content: center;
+        flex-direction:row-reverse;
+        align-items: center;
+    }
+    
+.Botones button{
+    font-size: small; 
+    display: inline-flex;
+    align-items: center;
+}
+
+#Login {
+    color : white;
+    padding: 10px;
+    border: 1px solid white; 
+}
+
+#Login:hover {
+    background-color: grey;
+    color : white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#signup {
+    background-color: white;
+    color : black;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+#signup:hover {
+    background-color: rgba(251, 251, 251, 0.684);
+    color : white;
+    padding: 10px;
+    border: 1px solid white;
 }
 
 .Menu ul {
