@@ -1,3 +1,12 @@
+.Encabezado {
+    display: flex;
+    justify-content: space-between; ;
+    align-items: center;
+    flex-direction:row-reverse;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
 body {
     background-image: none;
     background-color: transparent;
@@ -10,20 +19,17 @@ body {
     background-size: 100%;
 }
 
-.Encabezado {
-    display: flex;
-    justify-content: space-between; ;
-    align-items: center;
-    flex-direction:row-reverse;
-    border-radius: 20px;
-    background-color: transparent;
-    }
-
-    
 .Encabezado div img {
-        border-radius: 6%;
-        display: flex;
-        border-radius: 30px;
+    margin-top: 3.125em;
+}
+
+.Encabezado span {
+    font-size: 50px;
+    color: white;
+    font-family: rubi,helvetica,arial,sans-serif;
+    margin: 0px;
+    font-weight: 700;
+    text-shadow: black 0em 0em 0.2em;
     }
 
 #logo { 
@@ -37,6 +43,7 @@ body {
     font-size: small; 
     display: inline-flex;
     align-items: center;
+    border-radius: 5px;
 }
 
 #Login {
@@ -68,15 +75,40 @@ body {
 }
 
 .Menu ul {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-content: left;
     align-items: center;
     list-style: none;
-    }
+    position: relative;
+    bottom: 90px;
+    left: 260px;
+    text-shadow: black 0em 0em 0.2em;
+}
+
+.Menu ul a {
+    text-decoration: none;
+    color: white;    
+}
 
 .Menu ul li {
-    margin: 0 10px;
     border: 1px solid black;
     padding: 8px;
     border-radius: 20px;
-    }
+}
+
+main {
+    background-color: red;
+}
+
+.Introduccion {
+    background-color: white;
+    margin: 0px 40px 40px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.Introduccion h2 {
+    font-size: xx-large;
+
+}
